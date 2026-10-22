@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Nama Anda</title>
+  <meta name="description" content="Halaman portofolio pribadi berisi profil, keterampilan, dan proyek." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="logo">Portofolio<span>.</span></a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__greeting">Halo, saya</p>
+        <h1 class="hero__name">Nama Anda</h1>
+        <p class="hero__role">Mahasiswa Teknik Informatika &amp; Web Developer</p>
+        <p class="hero__desc">
+          Saya senang membangun website yang rapi, cepat, dan mudah digunakan.
+          Saat ini saya sedang belajar dan mengerjakan proyek-proyek web sederhana.
+        </p>
+        <div class="hero__actions">
+          <a href="#proyek" class="btn btn--primary">Lihat Proyek</a>
+          <a href="#kontak" class="btn btn--outline">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="hero__photo">
+        <!-- Ganti src dengan foto Anda, atau hapus blok ini jika tidak ada -->
+        <div class="avatar" aria-label="Foto profil">NA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section id="tentang" class="section">
+    <div class="container">
+      <h2 class="section__title">Tentang Saya</h2>
+      <p class="section__subtitle">Sedikit cerita tentang siapa saya</p>
+
+      <div class="card">
+        <p>
+          Saya adalah mahasiswa yang tertarik pada pengembangan web, khususnya
+          bagian <em>front-end</em>. Saya belajar HTML, CSS, dan JavaScript melalui
+          perkuliahan serta proyek pribadi.
+        </p>
+        <p>
+          Selain coding, saya suka mempelajari desain antarmuka dan hal-hal baru
+          di dunia teknologi. Tujuan saya adalah menjadi pengembang web yang
+          mampu membuat produk bermanfaat bagi banyak orang.
+        </p>
+
+        <ul class="info-list">
+          <li><strong>Nama</strong> <span>Nama Anda</span></li>
+          <li><strong>NIM</strong> <span>000000000</span></li>
+          <li><strong>Jurusan</strong> <span>Teknik Informatika</span></li>
+          <li><strong>Domisili</strong> <span>Indonesia</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILL ===== -->
+  <section id="skill" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Skill</h2>
+      <p class="section__subtitle">Teknologi yang saya gunakan</p>
+
+      <div class="grid">
+        <div class="card skill-card">
+          <h3>HTML</h3>
+          <p>Membuat struktur halaman yang semantik dan mudah dibaca.</p>
+        </div>
+        <div class="card skill-card">
+          <h3>CSS</h3>
+          <p>Mengatur tata letak, warna, dan tampilan responsif.</p>
+        </div>
+        <div class="card skill-card">
+          <h3>JavaScript</h3>
+          <p>Menambahkan interaksi dasar pada halaman web.</p>
+        </div>
+        <div class="card skill-card">
+          <h3>Git &amp; GitHub</h3>
+          <p>Menyimpan dan mengelola kode dengan version control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROYEK ===== -->
+  <section id="proyek" class="section">
+    <div class="container">
+      <h2 class="section__title">Proyek</h2>
+      <p class="section__subtitle">Beberapa proyek yang pernah saya kerjakan</p>
+
+      <div class="grid">
+        <article class="card project-card">
+          <h3>Website Portofolio</h3>
+          <p>Halaman portofolio pribadi yang dibuat dengan HTML dan CSS.</p>
+          <p class="tag-list">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </p>
+        </article>
+
+        <article class="card project-card">
+          <h3>Aplikasi To-Do List</h3>
+          <p>Aplikasi pencatat tugas sederhana dengan fitur tambah dan hapus.</p>
+          <p class="tag-list">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </p>
+        </article>
+
+        <article class="card project-card">
+          <h3>Landing Page Produk</h3>
+          <p>Halaman promosi produk dengan desain responsif.</p>
+          <p class="tag-list">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section id="kontak" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Kontak</h2>
+      <p class="section__subtitle">Mari terhubung</p>
+
+      <div class="card contact-card">
+        <p>Silakan hubungi saya melalui email atau media sosial berikut.</p>
+        <ul class="contact-list">
+          <li><strong>Email</strong> <a href="mailto:email@contoh.com">email@contoh.com</a></li>
+          <li><strong>GitHub</strong> <a href="https://github.com/2406042-maker" target="_blank" rel="noopener">github.com/2406042-maker</a></li>
+          <li><strong>LinkedIn</strong> <a href="#" target="_blank" rel="noopener">linkedin.com/in/username</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="tahun">2026</span> Nama Anda. Dibuat untuk tugas Pemrograman Web.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Menampilkan tahun berjalan secara otomatis di footer
+    document.getElementById("tahun").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
